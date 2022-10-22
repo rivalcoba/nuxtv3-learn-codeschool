@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="">
+  <div class="">
     This is a template
-    </div>
+  </div>
 </template>
 
 <style scoped></style>
