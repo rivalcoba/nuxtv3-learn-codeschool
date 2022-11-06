@@ -1,9 +1,8 @@
 <script lang="ts" setup>
 const query = ref("");
 
-const search = (e: SubmitEvent) => {
+const search = () => {
   $fetch(`http://www.omdbapi.com/?apikey=a755b202&s=${query.value}`);
-  return e
 };
 </script>
 <template>
